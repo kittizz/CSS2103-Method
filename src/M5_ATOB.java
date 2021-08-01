@@ -12,7 +12,7 @@ public class M5_ATOB {
     // สร้าง method แบบ static คืนค่า int ชื่อ ATOB
     // และ รับค่า parameter int a และ int b
     public static int ATOB(int a, int b) {
-        // ประกาศตัวแปรชนิด asnwer เท่ากับ 0
+        // ประกาศตัวแปรชนิด int ชื่อ asnwer เท่ากับ 0
         int answer = 0;
         // ลูปเรียกจาก a ถึง b
         for (int i = a; i <= b; i++) {
@@ -29,7 +29,7 @@ public class M5_ATOB {
     // สร้าง method แบบ static คืนค่า double ชื่อ ATOB
     // และ รับค่า parameter double a และ double b
     public static double ATOB(double a, double b) {
-        // ประกาศตัวแปรชนิด asnwer เท่ากับ 0
+        // ประกาศตัวแปรชนิด double ชื่อ asnwer เท่ากับ 0
         double answer = 0;
         for (double i = a; i <= b; i++) {
             // นับลำดับที่ลูป มา หารเอาเศษ ถ้าเศาไม่เท่ากับ 0 คือคี่
